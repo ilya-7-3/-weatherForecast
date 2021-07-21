@@ -16,7 +16,7 @@ const DailyWeather = () => {
                 </div>
                 
                 <div className="daily-element__img">
-                    <img src={`http://openweathermap.org/img/wn/${el.weather[0].icon}@2x.png`} alt='img'/>
+                    <img src={`https://openweathermap.org/img/wn/${el.weather[0].icon}@2x.png`} alt='img'/>
                 </div>
                 
                 <div className="daily-element__max-temp">
