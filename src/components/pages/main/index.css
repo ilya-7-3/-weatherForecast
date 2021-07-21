@@ -1,0 +1,21 @@
+.weather{
+    margin-top: 1.5rem;
+    text-align:center;
+    overflow-x: hidden;
+}
+.weather__location{
+    font-size: 2.5rem;
+}
+.weather__descr{
+   font-size: 1.5rem;
+}
+.weather__temp{
+    margin-top: -1rem;
+    font-size: 4rem;
+}
+.weather__min__max{
+    font-size: 1.5rem;
+}
+.card-block {
+    min-height: 300px;
+}

@@ -1,0 +1,29 @@
+.daily-element__img img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.daily-elements{
+    margin: 0 auto;
+   max-width: 700px;
+    font-size: 1.7rem;
+}
+.daily-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.daily-element__day{
+    text-align: left;
+    width:122px;
+}
+
+
+@media screen and (max-width: 768px){
+    .daily-element__img img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .daily-elements{
+        font-size: 1.4rem;
+    }
+}

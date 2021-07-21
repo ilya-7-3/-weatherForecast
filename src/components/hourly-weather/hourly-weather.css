@@ -1,0 +1,21 @@
+.element__time{
+    font-size: 1.2rem;
+}
+.element__temp{
+    font-size: 1.2rem;
+}
+.hourly-elements{
+    overflow-x: auto;
+}
+.element__descr img{
+    height: 70px;
+    width: 70px;
+}
+
+
+@media screen and (max-width: 768px){
+    .element__descr img{
+        height: 50px;
+        width: 50px;
+    }
+}
