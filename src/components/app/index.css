@@ -1,4 +1,5 @@
 body{
     background-image: url(https://media.idownloadblog.com/wp-content/uploads/2017/04/WeatherLock-Lock-screen-730x480.jpg);
     color:white;
+    user-select: none;
 }
